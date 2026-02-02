@@ -1,0 +1,698 @@
+
+        
+        
+
+        .Greetings {
+            display: flex;
+            justify-content: center;
+            width: 250px; 
+            height: 50px;
+            padding: 10px;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 50px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+            margin-left: -200px;
+            transition: transform 0.50s ease, filter 0.35s ease;  
+        }
+        .Konnichiwa {
+            margin-top: 3px;
+            
+        }
+
+        .Greetings:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0));
+        }
+
+        .FullBodyPicture {
+            filter: drop-shadow(0 1px 20px rgba(0, 0, 0, 1));
+            margin-left: -520px;
+            z-index: -1;
+        }
+        
+        .IntroduceSection {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .Im {
+            position: absolute;
+            letter-spacing: -3px;
+            margin-left: -195px;
+            margin-top: 0px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));   
+            
+        }
+
+        .Student {
+            position: absolute;
+            letter-spacing: -2px;
+            margin-left: -195px;
+            margin-top: 80px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));   
+        }
+
+        .MultiMedia {
+            position: absolute;
+            letter-spacing: -2px;
+            margin-left: -195px;
+            margin-top: 500px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));   
+        }
+
+        .Future {
+            position: absolute;
+            letter-spacing: -2px;
+            margin-left: -195px;
+            margin-top: 540px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));   
+        }
+
+        .AboutMeSection {
+            width: 1245px; 
+            height: 443px;
+            padding: 5px;
+            margin: -10px auto 0 auto;
+            z-index: 1;
+            border-radius: 50px;
+
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 50px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6);      
+            transition: transform 0.50s ease, filter 0.35s ease;  
+        }
+
+        .AboutMeSection:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+
+        .InnerAboutMeSection {
+            background: linear-gradient(to bottom, rgba(31, 31, 31, 0.9), rgba(10, 10, 10, 1));
+            width: 1200px; 
+            height: 400px;
+            padding: 5px;
+            z-index: 1;
+            margin: 0px auto 0 auto;
+            margin-top: 15px;
+            border-radius: 35px;
+        }
+
+        .AboutMeSection h1 {
+            margin: 20px;
+            margin-left: 30px;
+        }
+
+        .RobloxCharacter {
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            z-index: 3;
+            margin-top: -31px;
+            margin-left: 620px;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+        }
+
+        .ProfilePicture3 {
+            border-radius: 36px;
+            height: 500px;
+            width: 500px;
+            z-index: 2;
+            margin-top: -231px;
+            margin-right: -5px;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+        }
+
+        .Information {
+            display: flex;
+            align-items: center; 
+        }
+
+        .Information p {
+            text-align: justify;
+            margin: 40px;
+            margin-top: -20px;
+        }
+
+        .Skills {
+            margin-left: 650px;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1)); 
+        }
+
+        .SkillsSection {
+            
+            display: flex;
+            justify-content: center;
+            
+           
+            margin-top: -70px;
+            gap: 15px; 
+        }
+
+        .SkillsSection .HTML {
+            position: relative;
+            width: 290px; 
+            height: 150px;
+            padding: 20px; 
+            background: linear-gradient(to bottom, rgba(31, 31, 31, 0.3), rgba(10, 10, 10, 1));
+            border-radius: 23px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+        .SkillsSection .HTMLLogo {
+            position: absolute;  
+            margin-top: -30px;
+            margin-left: -20px ;
+            border-bottom-left-radius: 23px;
+            width: 200px;
+            height: 200px;
+            filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.6));
+        }
+        .SkillsSection .HTMLText {
+            margin-left: 175px;
+            margin-top: 0px;
+        }
+        .HTML p {
+            margin-left: 130px;
+        }
+
+
+        .SkillsSection .LUA {
+            position: relative;
+            width: 290px; 
+            height: 150px;
+            padding: 20px; 
+            background: linear-gradient(to bottom, rgba(31, 31, 31, 0.3), rgba(10, 10, 10, 1));
+            border-radius: 23px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+        .SkillsSection .LUALogo {
+            position: absolute;  
+            margin-top: -30px;
+            margin-left: -20px ;
+            border-bottom-left-radius: 23px;
+            width: 200px;
+            height: 200px;
+            filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.6));
+        }
+        .SkillsSection .LUAText {
+            margin-left: 200px;
+            margin-top: 0px;
+        }
+        .LUA p {
+            margin-left: 155px;
+            line-height: 17px;
+            
+        }
+
+        
+        .SkillsSection .PYTHON {
+            position: relative;
+            width: 290px; 
+            height: 150px;
+            padding: 20px; 
+            background: linear-gradient(to bottom, rgba(31, 31, 31, 0.3), rgba(10, 10, 10, 1));
+            border-radius: 23px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+        .SkillsSection .PYTHONLogo {
+            position: absolute;  
+            margin-top: -30px;
+            margin-left: -20px ;
+            border-bottom-left-radius: 23px;
+            width: 200px;
+            height: 200px;
+            filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.6));
+        }
+        .SkillsSection .PYTHONText {
+            margin-left: 145px;
+            margin-top: 0px;
+        }
+        .PYTHON p {
+            margin-left: 160px;
+            line-height: 17px;
+        }
+
+        .OuterSkillsSection:hover{
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+
+        .OuterSkillsSection {
+            display: flex;
+            justify-content: center; 
+            align-items: center;  
+            width: 350px; 
+            height: 210px;
+            z-index: 1;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 30px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6);  
+            transition: transform 0.50s ease, filter 0.35s ease;
+        }
+
+
+        
+
+        .Projects {
+            margin-left: -650px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1)); 
+        }
+
+        .ProjectsSection {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-left: 15px;
+            margin-top: -50px;
+        }
+
+        .OuterProjectsSection:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+
+        .OuterProjectsSection {
+            display: flex;
+            justify-content: center; 
+            align-items: center;  
+            width: 590px; 
+            height: 370px;
+            z-index: 1;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 30px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6);  
+            transition: transform 0.50s ease, filter 0.35s ease;
+        }
+
+        .AboutMePage {
+            position: relative;
+            width: 520px; 
+            height: 300px;
+            padding: 20px; 
+            background: linear-gradient(to bottom, rgba(31, 31, 31, 0.3), rgba(10, 10, 10, 1));
+            border-radius: 23px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+
+        .AboutMePage .AboutMeImage {
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            mask-image: linear-gradient(to bottom, black 20%, transparent);
+            height: 320px;
+            width: 560px;
+            margin-top: -20px;
+            margin-left: -20px;
+            z-index: 0;
+        }
+
+        .AboutMePage .HTMLLogo2 {
+            position: absolute; 
+            border-bottom-left-radius: 20px;
+            height: 130px;
+            width: 130px;
+            margin-top: -310px;
+            margin-left: 290px;
+            z-index: 10;
+        }
+        .AboutMePage .CSSLogo {
+            position: absolute; 
+            border-bottom-left-radius: 20px;
+            height: 130px;
+            width: 130px;
+            margin-top: -310px;
+            margin-left: 400px;
+            z-index: 10;
+        }
+        .AboutMePageTitle {
+            margin-top: -105px;
+            position: absolute; 
+        }
+        .AboutMePageDesc {
+            margin-top: -33px;
+            position: absolute;
+        }
+
+
+        .ToyKingdom {
+            position: relative;
+            width: 520px; 
+            height: 300px;
+            padding: 20px; 
+            background: linear-gradient(to bottom, rgba(31, 31, 31, 0.3), rgba(10, 10, 10, 1));
+            border-radius: 23px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+        .ToyKingdom .ToyKingdomImage {
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            mask-image: linear-gradient(to bottom, black 20%, transparent);
+            height: 320px;
+            width: 560px;
+            margin-top: -20px;
+            margin-left: -20px;
+        }
+
+        .ToyKingdom .RobloxStudioLogo {
+            position: absolute; 
+            border-bottom-left-radius: 20px;
+            height: 110px;
+            width: 110px;
+            margin-top: -295px;
+            margin-left: 280px;
+            z-index: 10;
+        }
+        .ToyKingdom .LUALogo2 {
+            position: absolute; 
+            border-bottom-left-radius: 20px;
+            height: 110px;
+            width: 110px;
+            margin-top: -295px;
+            margin-left: 400px;
+            z-index: 10;
+        }
+        .ToyKingdomTitle {
+            margin-top: -105px;
+            position: absolute; 
+        }
+        .ToyKingdomDesc {
+            margin-top: -33px;
+            position: absolute;
+        }
+
+        .ContactInfoSection {
+            display: flex;
+            justify-content: center;
+        }
+
+        .ContactMe {
+            display: flex;
+            justify-content: center;
+            width: 260px; 
+            height: 35px;
+            padding: 10px;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 50px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+           
+            transition: transform 0.50s ease, filter 0.35s ease;  
+        }
+
+        .ContactMe:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0));
+        }
+
+        .ContactMeText {
+            margin-top: -3px;
+        }
+
+        .ContactInfoSection2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .OuterContactInfo {
+            display: flex;
+            justify-content: center;
+            width: 800px; 
+            height: 320px;
+            padding: 10px;
+            margin-left: -330px;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 40px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+            
+            transition: transform 0.50s ease, filter 0.35s ease;  
+        }
+         .OuterContactInfo:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+
+
+        .ContactProfile {
+            margin-top: 10px;
+            margin-left: -385px;
+            height: 300px;
+            width: 300px;
+            border-radius: 20px;
+        }
+
+        .ContactNameText {
+            position: absolute;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            margin-left: -60px;
+            margin-top: 30px;
+        }
+        .EmailAddressText {
+            position: absolute;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            margin-left: -55px;
+            margin-top: 95px;
+        }
+        .LocationText {
+            position: absolute;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            margin-left: -55px;
+            margin-top: 125px;
+        }
+        .SchoolNameText {
+            position: absolute;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            margin-left: -55px;
+            margin-top: 155px;
+        }
+        .CourseYearText {
+            position: absolute;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            margin-left: -55px;
+            margin-top: 185px;
+        }
+        .PreferredNameText {
+            position: absolute;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            margin-left: -55px;
+            margin-top: 275px;
+        }
+        
+
+        .GitHub {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 80px; 
+            height: 80px;
+            padding: 10px;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 30px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+            transition: transform 0.50s ease, filter 0.35s ease;  
+            margin-left: 230px;
+        }
+        .GitHub:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+        .GitHubLogo {
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+        }
+
+        .Facebook {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 80px; 
+            height: 80px;
+            padding: 10px;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 30px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+            transition: transform 0.50s ease, filter 0.35s ease;  
+            margin-left: 340px;
+        }
+        .Facebook:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+        .FacebookLogo {
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+        }
+
+        .Instagram {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 80px; 
+            height: 80px;
+            padding: 10px;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 30px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+            transition: transform 0.50s ease, filter 0.35s ease;  
+            margin-left: 450px;
+        }
+        .Instagram:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+        .InstagramLogo {
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+        }
+
+        .Youtube {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 80px; 
+            height: 80px;
+            padding: 10px;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 30px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+            transition: transform 0.50s ease, filter 0.35s ease;  
+            margin-left: 230px;
+            margin-top: 110px;
+        }
+        .Youtube:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+        .YoutubeLogo {
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+        }
+
+        .Roblox {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 80px; 
+            height: 80px;
+            padding: 10px;
+            background: rgba(20, 20, 20, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 30px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+            transition: transform 0.50s ease, filter 0.35s ease;  
+            margin-left: 340px;
+            margin-top: 110px;
+        }
+        .Roblox:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+        .RobloxLogo2 {
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            
+            
+        }
+
+        .Apps {
+            position: absolute;
+            margin-left: 60px;
+        }
+
+
+
+        .Footer {
+            
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            padding: 40px;
+            background-color: linear-gradient(to bottom, rgba(31, 31, 31, 0.3), rgba(10, 10, 10, 1));
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            padding: 40px;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));
+            box-shadow: 0 0 20px rgba(0,1,1,0.8);
+
+        }
+
+
+        @keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.float {
+    animation: float 4s ease-in-out infinite;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
