@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in Form</title>
+    <style>
+          body {
+            margin: 0;
+            background-image: url("RobloxBackground3.png");
+            background-repeat: no-repeat;
+            background-size: cover;      
+            background-position: center; 
+            background-attachment: fixed; 
+            background-color: #cccccc; 
+        
+        }
+      
+        .forms {
+            display: flex;
+            justify-content: center;
+            width: 480px; 
+            height: 1060px;
+            padding: 5px; 
+            
+            border-radius: 16px;
+            
+            background: rgba(20, 20, 20, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px); 
+            
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6);    
+        }
+
+        .FORMED {
+            display: flex;
+            justify-content: center;
+            margin: 25px;
+        }
+
+        .RobloxLogo {
+            display: flex;
+            justify-content: center;
+        }
+
+        .RobloxLogo img {
+            filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.6)); 
+            height: 60px;
+            width: 250px;
+   
+        }
+
+        fieldset {
+            background: linear-gradient(to bottom, rgba(19, 19, 19, 0.9), rgba(31, 31, 31, 0.9), rgba(10, 10, 10, 0.9));
+            border-width: 0px;
+            border-radius: 10px;
+            filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.6));
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+
+        }
+        legend {
+            background-color: #131313;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        input {
+            background-color: rgb(10, 10, 10);
+            outline: none; 
+            border: 1px solid #272727; 
+            border-radius: 9px;
+            height: 30px;
+        }
+
+        textarea {
+            border: 1px solid #272727;
+            border-radius: 9px;
+            height: 75px;
+            width: 360px;
+        }
+
+        
+        label {
+            color: rgb(212, 212, 212);
+            font-family: Arial;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+
+
+        .headNames {
+            display: flex; 
+            justify-content: space-around; 
+            margin-left: -20px;
+        }
+        .inputs {
+            display: flex; 
+            justify-content: space-around; 
+            
+        }
+
+        .inputs input {
+            width:  157px;
+        }
+
+        .birthday {
+            margin: 9px;
+            margin-top: 10px;
+            
+        }
+
+        .birthday input {
+            width: 360px;
+            margin-top: 3px;
+        }
+
+        .checkmark {
+            height: 25px;
+            width: 25px;
+            accent-color: #242424;
+        }
+
+        .gender {
+            display: flex; 
+            justify-content: space-around; 
+            margin: 9px;
+            margin-top: 2px;
+        }
+        .femaleBox {
+            display: flex; 
+            justify-content: space-around; 
+            margin-left: -20px;
+            padding: 5px;
+            background: linear-gradient(to bottom, rgba(126, 58, 126), rgba(94, 41, 94));
+            border-radius: 20px;
+            border: #cccccc;
+            width: 160px;
+        
+            
+            transition: 
+            transform 0.25s ease,
+            box-shadow 0.25s ease,
+            background 0.25s ease;
+        }
+
+        .maleBox {
+            display: flex; 
+            justify-content: space-around; 
+            margin-left: -20px;
+            padding: 5px;
+            background: linear-gradient(to bottom, rgb(58, 87, 126), rgb(35, 59, 90));
+            border-radius: 20px;
+            border: #cccccc;
+            width: 160px;
+
+          
+            transition: 
+            transform 0.25s ease,
+            box-shadow 0.25s ease,
+            background 0.25s ease;
+        }
+
+        .femaleBox:hover {
+           
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+            cursor: default;
+        }
+
+        .maleBox:hover {
+          
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+            cursor: default;
+        }
+
+
+        select {
+            border-radius: 10px;
+            margin: 5px;
+            width: 150px;
+            height: 30px;
+        }
+
+
+        .reset {
+            background: linear-gradient(to bottom, rgb(168, 81, 81), rgb(126, 58, 58));
+            border-radius: 10px;
+            border-width:  0px;
+            font-size: 20px;
+            font-family: Arial;
+            color: #cccccc;
+            height: 30px;   
+            width: 420px;
+            filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.6));
+            margin-bottom: 8px;
+
+            will-change: transform;
+            
+            border-radius: 14px;
+            transition: 
+            transform 0.25s ease,
+            box-shadow 0.25s ease,
+            background 0.25s ease;
+        }
+
+        .submit {
+            background: linear-gradient(to bottom, rgb(58, 126, 67), rgb(36, 78, 41));
+            border-radius: 10px;
+            border-width:  0px;
+            font-size: 20px;
+            font-family: Arial;
+            color: #cccccc;
+            width: 420px;
+            height: 30px;
+            filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.6));
+
+            will-change: transform;
+          
+            border-radius: 14px;
+            transition: 
+            transform 0.25s ease,
+            box-shadow 0.25s ease,
+            background 0.25s ease;
+        }
+
+
+        .reset:hover {
+          
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+            cursor: default;
+        }
+        
+
+
+        .submit:hover {
+          
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+            cursor: default;
+        }
+
+        .Footer {
+            margin-top: 0px;
+            padding: 40px;
+            text-align: center;
+            filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.6));
+    
+            background: linear-gradient(to top,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0));
+
+            color: #bdbdbd;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="RobloxLogo">
+        <img src="RobloxLogo.png" alt="Roblox">
+    </div>
+    
+    <div class="FORMED">
+        <div class="forms">
+            <form action="file:///C:/Users/Admin/OneDrive/Desktop/Portfolio_Gumahad/LANDINGPAGE_Gumahad/PersonalPortfolioWebsite.html#" method="post" autocomplete="on" target="_self">
+                <div class="formHeader">
+                    <p style="color: rgb(233, 233, 233); font-family: Arial; font-size: 25px; text-align: center;"><strong>SIGN UP AND START HAVING FUN!</strong></p  >
+                </div>
+    
+                <fieldset>
+                    <legend style="color: rgb(212, 212, 212); font-family: Arial; font-size: 18px; text-align: center; "><strong>Primary Information</strong></legend>
+                    <div class="firstLastName">
+                        <div class="headNames">
+                            <label for="FirstName">First Name</label><br>
+                            <label for="LastName">Last Name</label><br>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" id="FirstName" name="FirstName" placeholder="First Name" required style="color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: left;"><br>
+                            <input type="text" id="LastName" name="LastName" placeholder="Last Name" required style="color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: left;"><br>
+                        </div>
+                    </div>
+        
+                    <div class="birthday">
+                        <label for="Birthday">Birthday</label><br>
+                        <input required type="date" id="Birthday" name="Birthday" style="color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: center;"><br>
+                    </div>
+
+                    <label for="Gender" style="margin-left: 10px;">Gender</label><br>
+                    <div class="gender">
+                        <div class="femaleBox">
+                            <label for="Female" style="margin-top: 2px;"><strong>Female</strong></label><br>
+                            <input class="checkmark" type="radio" id="Female" name="Gender" style="margin-top: 1px; margin-right: 5px;">
+                        </div>
+                        
+                        <div class="maleBox">
+                            <label for="Male" style="margin-top: 2px;"><strong>Male</strong></label><br>
+                            <input class="checkmark" type="radio" id="Male" name="Gender" style="margin-top: 1px; margin-right: 5px;">
+                        </div>          
+                    </div>
+        
+                    <div class="email">
+                        <label for="Email" style="margin: 10px;">Email</label><br>
+                        <input type="email" id="Email" name="Email" required style="color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: left ; margin: 10px; margin-top: 2px; width:355px;" placeholder="Email"><br>
+                    </div>
+        
+                    <div class="newPassword">
+                        <label for="NewPassword" style="margin: 10px;">New Password</label><br>
+                        <input type="Password" id="NewPassword" name="NewPassword" style="color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: left ; margin: 10px; margin-top: 2px; width:355px;" placeholder="New Password"><br>
+                    </div>
+        
+                    <div class="confirmPassword">
+                        <label for="ConfirmPassword" style="margin: 10px;">New Password</label><br>
+                        <input type="Password" id="ConfirmPassword" name="ConfirmPassword" style="color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: left ; margin: 10px; margin-top: 2px; width:355px;" placeholder="Confirm Password"><br>
+                        <br>
+                    </div>
+
+                </fieldset>
+               <br><br>
+                <fieldset>
+                    <legend style="color: rgb(212, 212, 212); font-family: Arial; font-size: 18px; text-align: center; "><strong>Personalization</strong></legend>
+                    <div class="displayName" >
+                        <label for="displayName" style="margin-left: 10px;">Display Name</label><br>
+                        <input type="text" id="displayName" name="displayName" style="color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: left ; margin: 10px; margin-top: 2px; width:355px;" placeholder="Display Name" min="4" max="8"><br>
+                    </div>
+    
+                    <div class="bio">
+                        <label for="TextArea" style="margin-left: 10px;">Bio</label><br>
+                        <textarea name="" id="" cols="30" rows="10" style="background-color: rgb(10, 10, 10); margin-left: 10px; color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: left ;" placeholder="Bio"></textarea><br>
+                    </div>
+        
+                    <div class="language">
+                        <br>
+                        <label for="Language" style="margin-left: 10px;">Preferred Langage</label><br>
+                        <select id="Language" name="Language" style="background-color: rgb(10, 10, 10); margin-left: 10px; color: rgb(212, 212, 212); font-family: Arial; font-size: 16px; text-align: left ;">
+                            <option value=" " selected>Select</option>
+                            <option value="English">English</option>
+                            <option value="Tagalog">Tagalog</option>
+                            <option value="Japanese">Japanese</option>
+                        </select>
+                    </div>
+                    <br>
+                </fieldset>
+                <br>
+                <button class="reset" type="reset" value="Reset">Reset</button>
+                
+                <br>
+                <button class="submit" type="submit" value="Sign Up">Sign Up</button>
+                
+            </form>
+
+
+
+        </div>
+    </div>
+
+    <div class="Footer">
+        <p><strong>© 2026 Forms | Gumahad</strong></p>
+    </div>
+</body>
+</html>
