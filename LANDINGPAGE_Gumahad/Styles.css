@@ -1,0 +1,291 @@
+
+    .RobloxLogoNav {
+      height: 40px;
+      width: 155px;
+      margin-top: -11px;
+    }
+
+    .custom-navbar {
+      margin: 30px;
+      margin-top: 26px;
+    
+    
+    }
+
+    .Greetings {
+            display: flex;
+            justify-content: center;
+            width: 160px; 
+            height: 50px;
+            padding: 10px;
+            background: rgba(44, 44, 44, 0.2); 
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border-radius: 50px;
+            box-shadow:
+            inset 0 0 8px rgba(172, 172, 172, 0.15), 
+            0 8px 24px rgba(0, 0, 0, 0.6); 
+            margin-left: 180px;
+            transition: transform 0.50s ease, filter 0.35s ease;  
+        }
+
+        .Greetings:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(62, 62, 62, 0.7));
+        }
+
+        .Welcome {
+            margin-top: -3px;
+        }
+
+        .Vincent {
+          margin-left: 120px;
+          transition: transform 0.50s ease, filter 0.35s ease;  
+           text-shadow:
+    0 0 6px rgba(255, 255, 255, 0.4),
+    0 2px 8px rgba(0, 0, 0, 0.9);
+        }
+
+        .Vincent:hover {
+          transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(110, 110, 110, 0.9));
+        }
+
+
+        .RobloxLogo img{
+          height: 180px;
+          width: 700px;
+          filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));   
+          margin-left: 260px;
+          transition: transform 0.50s ease, filter 0.35s ease;  
+        }
+
+        .RobloxLogo img:hover {
+            transform: translateY(-10px);
+            filter: drop-shadow(0 8px 18px rgba(110, 110, 110, 0.5));
+        }
+
+        .RobloxCharacter img {
+          position: absolute;
+          height: 700px;
+          width: auto;
+          margin-left: 250px;
+          margin-top: -520px;
+          filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));   
+          -webkit-mask-image: linear-gradient(
+        to bottom,
+        black 70%,
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        black 70%,
+        transparent 100%
+    );
+        }
+
+        .ShortIntro {
+          margin-left: 135px;
+          margin-top: -10px;
+          text-shadow:
+    0 1px 2px rgba(0, 0, 0, 1),
+    0 4px 10px rgba(0, 0, 0, 0.9),
+    0 10px 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .Text {
+          margin-top: 90px;
+          
+        }
+
+        .EndingIntro {
+          text-shadow:
+    0 1px 2px rgba(0, 0, 0, 1),
+    0 4px 10px rgba(0, 0, 0, 0.9),
+    0 10px 20px rgba(0, 0, 0, 0.6);
+          margin-left: 135px;
+        }
+
+        
+        .AboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 55px;
+    padding: 10px;
+
+    background: linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.12),
+        rgba(94, 94, 94, 0.25)
+    );
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-radius: 50px;
+
+    box-shadow:
+        inset 0 1px 1px rgba(255, 255, 255, 0.25),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.25),
+        0 10px 30px rgba(0, 0, 0, 0.65);
+
+    cursor: pointer;
+    user-select: none;
+
+    margin-top: 10px;
+
+
+
+    transition:
+        transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.45s ease,
+        filter 0.3s ease;
+}
+
+
+.AboutMe:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+    box-shadow:
+        inset 0 1px 1px rgba(255, 255, 255, 0.3),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.2),
+        0 14px 40px rgba(0, 0, 0, 0.8);
+}
+
+
+.AboutMe:active {
+    transition-duration: 0.1s; 
+    transform: translateY(1px);
+    box-shadow:
+        inset 0 4px 10px rgba(0, 0, 0, 0.6),
+        0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+.RegisterButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 55px;
+    padding: 10px;
+
+    background: linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.12),
+        rgba(94, 94, 94, 0.25)
+    );
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-radius: 50px;
+
+    box-shadow:
+        inset 0 1px 1px rgba(255, 255, 255, 0.25),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.25),
+        0 10px 30px rgba(0, 0, 0, 0.65);
+
+    cursor: pointer;
+    user-select: none;
+
+    margin-top: 10px;
+
+
+
+    transition:
+        transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.45s ease,
+        filter 0.3s ease;
+}
+
+
+.RegisterButton:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+    box-shadow:
+        inset 0 1px 1px rgba(255, 255, 255, 0.3),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.2),
+        0 14px 40px rgba(0, 0, 0, 0.8);
+}
+
+
+.RegisterButton:active {
+    transition-duration: 0.1s; 
+    transform: translateY(1px);
+    box-shadow:
+        inset 0 4px 10px rgba(0, 0, 0, 0.6),
+        0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+.Buttons {
+  margin-left: 135px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.AboutMeText {
+  margin-top: 5px;
+}
+.Register {
+  margin-top: 5px;
+}
+
+
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.float {
+    animation: float 4s ease-in-out infinite;
+}
+
+a.no-underline {
+    text-decoration: none;
+}
+
+.Footer {
+            
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));  
+            margin-top: 150px;
+            background-color: linear-gradient(to bottom, rgba(31, 31, 31, 0.3), rgba(10, 10, 10, 1));
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            padding: 20px;
+            filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 1));
+            box-shadow: 0 0 20px rgba(0,1,1,0.8);
+
+        }
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
